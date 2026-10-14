@@ -8,10 +8,10 @@ The model detects and classifies one item per image into six classes: `cardboard
 
 | File | Purpose |
 |---|---|
-| `01_dataset_inspection.ipynb` | Downloads the dataset and checks it: split sizes, class balance, box sizes, label errors, duplicate/leakage check, sample images with boxes |
-| `02_dataset_cleaning.ipynb` | Fixes the issues found in step 01 and writes the cleaned dataset |
-| `03_model_and_training.ipynb` | Model architecture overview, from-scratch Hungarian matcher and loss, augmentation, three training experiments, early stopping, checkpointing, training curves |
-| `04_evaluation.ipynb` | Test-set evaluation (accuracy, precision, recall, IoU, mAP), confusion matrix, prediction visualizations, error analysis |
+| `Victoriano_01_dataset_inspection.ipynb` | Downloads the dataset and checks it: split sizes, class balance, box sizes, label errors, duplicate/leakage check, sample images with boxes |
+| `Victoriano_02_dataset_cleaning.ipynb` | Fixes the issues found in step 01 and writes the cleaned dataset |
+| `Victoriano_03_model_and_training.ipynb` | Model architecture overview, from-scratch Hungarian matcher and loss, augmentation, three training experiments, early stopping, checkpointing, training curves |
+| `Victoriano_04_evaluation.ipynb` | Test-set evaluation (accuracy, precision, recall, IoU, mAP), confusion matrix, prediction visualizations, error analysis |
 | `requirements.txt` | Python dependencies |
 
 ## Setup
@@ -28,10 +28,10 @@ To run locally instead, use Python 3.10 or newer with a CUDA GPU and `pip instal
 
 Run the notebooks in order:
 
-1. **`01_dataset_inspection.ipynb`**: review the tables and image grids.
-2. **`02_dataset_cleaning.ipynb`**: creates `/content/trash-clean`.
-3. **`03_model_and_training.ipynb`**: trains the experiments. Each experiment is its own cell, and an interrupted run resumes when the cell is run again. At the end it prints which run did best on the **validation** set.
-4. **`04_evaluation.ipynb`**: set `RUN_NAME` to the best run and run all cells. Figures and a `test_results.json` file are saved to Drive.
+1. **`Victoriano_01_dataset_inspection.ipynb`**: review the tables and image grids.
+2. **`Victoriano_02_dataset_cleaning.ipynb`**: creates `/content/trash-clean`.
+3. **`Victoriano_03_model_and_training.ipynb`**: trains the experiments. Each experiment is its own cell, and an interrupted run resumes when the cell is run again. At the end it prints which run did best on the **validation** set.
+4. **`Victoriano_04_evaluation.ipynb`**: set `RUN_NAME` to the best run and run all cells. Figures and a `test_results.json` file are saved to Drive.
 
 ## Dataset
 
