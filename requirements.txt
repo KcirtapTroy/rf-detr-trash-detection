@@ -1,0 +1,10 @@
+# Tested with rfdetr 1.11.2 on Python 3.10+. Use a CUDA GPU for training.
+rfdetr[train,augment]>=1.11,<2
+tensorboard
+pycocotools
+supervision
+roboflow
+scipy
+pandas
+matplotlib
+pillow
