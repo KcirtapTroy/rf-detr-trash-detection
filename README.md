@@ -122,4 +122,4 @@ The library's own evaluation gives mAP@0.5 0.952 and mAP@0.5:0.95 0.922, which a
 4. Zhu, X., et al. (2021). *Deformable DETR: Deformable Transformers for End-to-End Object Detection.* ICLR.
 5. Oquab, M., et al. (2023). *DINOv2: Learning Robust Visual Features without Supervision.*
 6. Lin, T.-Y., et al. (2014). *Microsoft COCO: Common Objects in Context.* ECCV. (evaluation protocol, via `pycocotools`)
-7. Roboflow Universe dataset: Trash Detection (`trash-detection-kcsnu-1kabv`), version 1. Add the author, URL, and access date from the dataset page.
+7. Trash Annontations. (2023). Roboflow Universe dataset: Trash Detection (`trash-detection-kcsnu-1kabv`), version 1. https://universe.roboflow.com/trash-annotations/trash-detection-kcsnu
